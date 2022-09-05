@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color:#191924;
+}
+h4{
+  color: red;
+  font-weight: 350;
+  font-size: 1.4em;
+}
+header{
+    margin: 10px 0px;
+}
+
+#intro{
+   border: 1px #d2692E solid;
+   border-radius: 5%;
+   margin: 10px auto;
+   width: 600px;
+   text-align: center;
+   background-color: #10041c;
+   color: white;
+   font-size: 1.1em;
+}
+
+.menu{
+}
+.menu_tipos_container{
+  
+    display: flex;
+    justify-content: space-around;
+    padding: 2px 3px;
+    background-color: #10041c;
+}
+.menu_tipos{
+    background-color:#1e164137;
+}
+.menu_tipos > a{
+  padding: 2px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: red;
+}
+
+
+main{
+    margin: 2px 0px;
+}
+#container_1{
+    margin: 10px 0px;
+    text-align: center;
+}
+#Text_Box_1{
+    border: 1.5px #d2692E solid;
+    border-radius: 5%;
+    margin: 10px auto;
+    width: 600px ;
+}
+#Intro_Trabalhos{
+  font-size: 1.1em;
+}
+
+#Conteudo_Trabalhos{
+    background-color:#1e164137;
+    color: white;
+}
+#FlexBox_Trabalhos{
+  display: flex;
+  padding:auto;
+  justify-content: space-around;
+}
+#Trabalhos{
+    margin: 10px ;
+    border: 1px red solid;
+    width:80px;
+    background-color: #10041c;
+}
+#Trabalhos > a{
+    color:#d2692E;
+    text-decoration: none;
+    display:block;
+    font-size: 1.1em;
+    
+}
+#Jogos_Foto{
+  width: 80px;
+}
+#Vingadores_Foto{
+  width: 80px;
+}
+#Uaiflix_Foto{
+  width: 80px;
+}
+
+#Trabalhos_2{
+    margin: 10px ;
+    border: 1px red solid;
+    width: 80px;
+    background-color: #10041c;
+}
+
+#Trabalhos_2 > a{
+    text-decoration: none;
+    padding: 2px;
+    color:#d2692E;
+    display:block;
+}
+#Trabalhos_3{
+
+    margin: 10px ;
+    border: 1px red solid;
+    width:80px;
+    background-color: #10041c;
+    
+}
+#Trabalhos_3 > a{
+    text-decoration: none;
+    color:#d2692E;
+    display:block;
+}
+
+#container_2{
+    margin: 10px;
+    text-align: center;
+}
+#Text_Box_2{
+    border: 1.5px #d2692E solid;
+    border-radius: 5%;
+    margin: 10px auto;
+    width: 600px ;
+}
+#Conteudo_Habilidades{
+  background-color: #1e164137;
+}
+#Conteudo_Habilidades > p{
+    color: white;
+    padding: 8px;
+    text-align: justify;
+    text-align: center;
+    font-size: 1.1em;
+}
+#Img_Habilidades_1{
+  width: 250px;
+  float: right;
+  margin: 4px 2px;
+}
+#Img_Habilidades_2{
+  width: 242px;
+  margin: 6px 10px;
+  float: left;
+  border: 1px red solid;
+}
+#img_github{
+  width: 40px;
+  margin-top:8px;
+}
+#FlexBox_Curriculo{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+#CurriculoBox{
+  border: 1px red solid;
+  color: white;
+  margin-top:20px;
+  padding: 2px;
+  background-color:#10041c;
+}
+
+
+#container_3{
+    margin: 10px;
+    text-align: center;
+}
+#Text_Box_3{
+    border: 1.5px  #d2692E solid;
+    border-radius: 5%;
+    margin: 10px auto;
+    width: 600px ;
+    background-color: #1e164137;
+}
+#Conteudo_SobreMim > p{
+    padding: 5px;
+    color: white;
+    font-size: 1.1em;
+}
+
+#foto{
+  width: 300px;
+}
+
+footer{
+    background-color: #10041c;
+}
+#Contato > article{
+  text-align: center;
+  margin: 10px;
+  color: #d2692E;
+  font-size: 1.1em;
+}
+#Contato > article a{
+    text-decoration:none;
+    color: #d2692E;
+    display: block;
+    font-size: 1.1em;
+}
+#Contato > aside{
+  text-align: right;
+  color: gray;
+  font-size: 1.1em;
+}
+#Contato > p{
+  margin-top:8px;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+}
